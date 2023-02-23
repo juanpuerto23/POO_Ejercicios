@@ -55,9 +55,9 @@ public class Test
                 break;
         }
 
-        if (numero < 0 & numero >= 10)
+        if (numero < 0 || numero >= 10)
         {
-            JOptionPane.showMessageDialog(null, "El numero no está entre el rango indicado", null, numero);
+            JOptionPane.showMessageDialog(null, "El numero no está entre el rango indicado", null, JOptionPane.ERROR_MESSAGE);
         }
 
     }
