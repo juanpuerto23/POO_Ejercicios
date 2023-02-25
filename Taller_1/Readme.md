@@ -4,7 +4,9 @@
 ![Diagrama1](Ejercicio1/Image1.png)
 
 ## 2) Hacer el diagrama de flujo y el programa en Java que lea un número n, entero y positivo, y que le calcule su factorial y que lo imprima junto con el número leído.
+![Diagrama2](Ejercicio2/Image2.png)
 
 ## 3) Hacer el diagrama de flujo y el programa en Java que lea un número n, entero y positivo, y que determine si es o no un número primo.
 
 ## 4) Determinar si un número es capicúa o no. Se dice que un número capicúa es aquel que al invertir suscifras da el mismo número. Por ejemplo, 12321 invertido es 12321. Entonces es un número capicúa.
+![Diagrama4](Ejercicio4/Image4.png)
