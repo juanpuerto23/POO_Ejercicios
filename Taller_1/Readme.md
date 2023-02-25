@@ -7,6 +7,7 @@
 ![Diagrama2](Ejercicio2/Image2.png)
 
 ## 3) Hacer el diagrama de flujo y el programa en Java que lea un número n, entero y positivo, y que determine si es o no un número primo.
+![Diagrama3](Ejercicio3/Image3.png)
 
 ## 4) Determinar si un número es capicúa o no. Se dice que un número capicúa es aquel que al invertir suscifras da el mismo número. Por ejemplo, 12321 invertido es 12321. Entonces es un número capicúa.
 ![Diagrama4](Ejercicio4/Image4.png)
