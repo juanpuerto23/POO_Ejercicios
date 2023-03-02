@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class CalculadoraBasica
+public class Test
 {
     public static void main(String[] args)
     {
