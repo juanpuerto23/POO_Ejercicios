@@ -28,6 +28,21 @@ public class Test
             int promedio;
             promedio = (calorias[0] + calorias[1] + calorias[2] + calorias[3] + calorias[4] + calorias[5] + calorias[6])/7;
             JOptionPane.showMessageDialog(null, "El promedio de calorias en esta semana fueron de: " + promedio, "Promedio Calorias", JOptionPane.INFORMATION_MESSAGE);
+
+            float menor;
+            menor = calorias[0];
+            int diaMenos[];
+
+            for (int x = 1; x < calorias.length; x++)
+            {
+                if(calorias[x] < menor)
+                {
+                    menor = calorias[x];
+                    diaMenos = x;
+                }
+            }
+
+            JOptionPane.showMessageDialog(null, "El dia que menos calorias hubieron fue: " + diaSemana[diaMenos]);
         }
 
         if(opcion == 2)
