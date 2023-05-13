@@ -48,7 +48,7 @@ public class Coordenada
 
     public String toString() 
     {
-        return "Coordenada: " + "(" + x + ", " + y + ")";
+        return "(" + x + ", " + y + ")";
     }
 
     public boolean equals(Object objeto) 
