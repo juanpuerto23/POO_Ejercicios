@@ -2,4 +2,4 @@
 
 ## Captura de pantalla
 
-![Captura](CasoCoordenada/Documentos/captura_pantalla.png)
+![Captura](/CasoCoordenada/Documentos/captura_pantalla.png)
