@@ -10,6 +10,7 @@ public class Test
     public static void main(String[] args) 
     {
         double diametroCiruculo = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el diametro del circulo: ", "Circulo", JOptionPane.QUESTION_MESSAGE));
+
         Circulo ciruculo = new Circulo(diametroCiruculo);
         ciruculo.calcularPerimetro(diametroCiruculo);
         ciruculo.calcularArea(diametroCiruculo);
@@ -18,6 +19,7 @@ public class Test
 
         double baseRectangulo = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la base del rectangulo: ", "Rectangulo", JOptionPane.QUESTION_MESSAGE));
         double alturaRectangulo = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la altura del rectangulo: ", "Rectangulo", JOptionPane.QUESTION_MESSAGE));
+        
         Rectangulo rectangulo = new Rectangulo(baseRectangulo, alturaRectangulo);
         rectangulo.calcularArea(baseRectangulo, alturaRectangulo);
         rectangulo.calcularPerimetro(baseRectangulo, alturaRectangulo);
