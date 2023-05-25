@@ -56,7 +56,8 @@ public class Controlador implements ActionListener {
                 } 
                 else if (comando.equals("imprimirLibros")) 
                 {
-                        biblioteca.imprimirLibros();
+                        PanelSalida.mostrarResultados("Libros Biblioteca" + biblioteca.getLibrosBiblioteca());
+
                 } 
                 else if (comando.equals("borrarTexto")) 
                 {

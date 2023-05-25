@@ -35,7 +35,7 @@ public class Biblioteca
         {
                 for (int i = 0; i < librosBiblioteca.size(); i++) 
                 {
-                        System.out.println(librosBiblioteca.get(i).toString());
+                        librosBiblioteca.get(i).toString();
                 }
         }
 }

@@ -10,4 +10,8 @@ aparecer “y otros”.
 
 ## Diagrama de Clases
 
-![Diagrama](CasoBibliotecaHerencia/imagenes/diagrama_clases.png)
+![Diagrama](/imagenes/diagrama_clases.png)
+
+## Captura Pantalla
+
+![Captura](/imagenes/captura_pantalla.png)
