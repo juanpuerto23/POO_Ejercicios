@@ -16,4 +16,4 @@ aparecer “y otros”.
 
 ![Captura](/imagenes/captura_pantalla.png)
 
-![Captura](/imagenes/captura_dialogo.png)
+![Captura](https://github.com/juanpuerto23/POO_Ejercicios/blob/60c066e4f4ab17189e2b1b3ac1c8b21d72905806/CasoBibliotecaHerencia/imagenes/captura_dialogo.png)
