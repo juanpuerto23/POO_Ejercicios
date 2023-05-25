@@ -33,7 +33,7 @@ public class PanelEntrada extends JPanel {
                 lbTitulo.setForeground(Color.BLACK);
                 lbTitulo.setBounds(100, 10, 558, 30);
 
-                lbNombreLibro = new JLabel("Nombre =");
+                lbNombreLibro = new JLabel("Libro =");
                 lbNombreLibro.setFont(new Font("Serif", Font.PLAIN, 18));
                 lbNombreLibro.setForeground(Color.BLACK);
                 lbNombreLibro.setBounds(330, 55, 480, 30);
@@ -43,7 +43,7 @@ public class PanelEntrada extends JPanel {
                 tfNombreLibro.setForeground(Color.BLACK);
                 tfNombreLibro.setBounds(430, 55, 190, 30);
 
-                lbNombreAutores = new JLabel("Autores =");
+                lbNombreAutores = new JLabel("Autor/es =");
                 lbNombreAutores.setFont(new Font("Serif", Font.PLAIN, 18));
                 lbNombreAutores.setForeground(Color.BLACK);
                 lbNombreAutores.setBounds(330, 95, 480, 30);

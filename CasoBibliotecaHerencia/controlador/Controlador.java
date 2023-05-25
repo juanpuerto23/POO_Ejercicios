@@ -52,7 +52,8 @@ public class Controlador implements ActionListener {
                         Integer numeroColeccion = Integer.parseInt(DialogoLibroColeccion.getTfNumeroColeccion());
                         biblioteca.agregarLibro(new Coleccion(nombreLibro, nombreAutores, anioEdicion, libroDeLujo,
                                         nombreColeccion, numeroColeccion));
-                        PanelSalida.mostrarResultados("Se ha creado un nuevo libro de colección!\n");
+                        PanelSalida.mostrarResultados("\nSe ha creado un nuevo libro de colección!");
+                        miVentanaPrincipal.miDialogoLibroColeccion.cerrarDialogo();
                 } 
                 else if (comando.equals("imprimirLibros")) 
                 {

@@ -15,3 +15,5 @@ aparecer “y otros”.
 ## Captura Pantalla
 
 ![Captura](/imagenes/captura_pantalla.png)
+
+![Captura](/imagenes/captura_dialogo.png)

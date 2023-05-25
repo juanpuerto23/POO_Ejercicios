@@ -53,13 +53,13 @@ public class DialogoLibroColeccion extends JDialog {
 
                 rbEsLibroDeLujo = new JRadioButton("Sí");
                 rbEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
-                rbEsLibroDeLujo.setBackground(Color.decode("#eac435"));
+                rbEsLibroDeLujo.setBackground(Color.decode("#6ac730"));
                 rbEsLibroDeLujo.setBounds(150, 130, 50, 30);
                 bgEsLibroDeLujo.add(rbEsLibroDeLujo);
 
                 rbNoEsLibroDeLujo = new JRadioButton("No");
                 rbNoEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
-                rbNoEsLibroDeLujo.setBackground(Color.decode("#eac435"));
+                rbNoEsLibroDeLujo.setBackground(Color.decode("#6ac730"));
                 rbNoEsLibroDeLujo.setBounds(200, 130, 50, 30);
                 bgEsLibroDeLujo.add(rbNoEsLibroDeLujo);
 
@@ -76,13 +76,13 @@ public class DialogoLibroColeccion extends JDialog {
                 tfNumeroColeccion.setBounds(150, 210, 100, 25);
 
                 btnAgregarLibro = new JButton("Agregar");
-                btnAgregarLibro.setBounds(120, 240, 100, 25);
+                btnAgregarLibro.setBounds(90, 260, 100, 25);
                 btnAgregarLibro.setActionCommand("crearLibroColeccion");
 
                 this.setLayout(null);
-                this.getContentPane().setBackground(Color.decode("#eac435"));
+                this.getContentPane().setBackground(Color.decode("#6ac730"));
                 this.setTitle("Agregar Libro de Colección");
-                this.setSize(300, 300);
+                this.setSize(300, 350);
                 this.setLocationRelativeTo(null);
                 this.setResizable(false);
                 this.setVisible(true);
@@ -134,7 +134,8 @@ public class DialogoLibroColeccion extends JDialog {
                 btnAgregarLibro.addActionListener(al);
         }
 
-        public void cerrarDialogoAgregarJugador() {
+        public void cerrarDialogo() 
+        {
                 this.dispose();
         }
 }
