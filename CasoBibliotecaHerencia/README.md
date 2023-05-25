@@ -10,10 +10,10 @@ aparecer “y otros”.
 
 ## Diagrama de Clases
 
-![Diagrama](/imagenes/diagrama_clases.png)
+![Diagrama](https://github.com/juanpuerto23/POO_Ejercicios/blob/491c693183f85fc98a95f39eb4d3e126d58d3414/CasoBibliotecaHerencia/imagenes/diagrama_clases.png)
 
 ## Captura Pantalla
 
-![Captura](/imagenes/captura_pantalla.png)
+![Captura](https://github.com/juanpuerto23/POO_Ejercicios/blob/491c693183f85fc98a95f39eb4d3e126d58d3414/CasoBibliotecaHerencia/imagenes/captura_pantalla.png)
 
 ![Captura](https://github.com/juanpuerto23/POO_Ejercicios/blob/60c066e4f4ab17189e2b1b3ac1c8b21d72905806/CasoBibliotecaHerencia/imagenes/captura_dialogo.png)
