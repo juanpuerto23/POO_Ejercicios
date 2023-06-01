@@ -5,7 +5,7 @@ public class Coleccion extends Libro
     private String nombreColecccion;
     private Integer numeroColeccion;
 
-    public Coleccion(String nombreLibro, String nombreAutores, Integer anioEdicion, Boolean libroDeLujo, String nombreColecccion, Integer numeroColeccion) 
+    public Coleccion(String nombreLibro, String[] nombreAutores, Integer anioEdicion, Boolean libroDeLujo, String nombreColecccion, Integer numeroColeccion) 
     {
         super(nombreLibro, nombreAutores, anioEdicion, libroDeLujo);
         this.nombreColecccion = nombreColecccion;

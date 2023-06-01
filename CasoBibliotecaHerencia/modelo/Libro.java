@@ -4,11 +4,11 @@ package modelo;
 public class Libro 
 {
     protected String nombreLibro;
-    protected String nombreAutores;
+    protected String[] nombreAutores;
     protected Integer anioEdicion;
     protected Boolean libroDeLujo;
 
-    public Libro(String nombreLibro, String nombreAutores, Integer anioEdicion, Boolean libroDeLujo) {
+    public Libro(String nombreLibro, String[] nombreAutores, Integer anioEdicion, Boolean libroDeLujo) {
             this.nombreLibro = nombreLibro;
             this.nombreAutores = nombreAutores;
             this.anioEdicion = anioEdicion;
@@ -17,7 +17,7 @@ public class Libro
 
     public Libro() {
             this.nombreLibro = "";
-            this.nombreAutores = "";
+            this.nombreAutores = null;
             this.anioEdicion = 0;
             this.libroDeLujo = false;
     }
@@ -27,7 +27,7 @@ public class Libro
             return nombreLibro;
     }
 
-    public String getNombreAutores() 
+    public String[] getNombreAutores() 
     {
             return nombreAutores;
     }

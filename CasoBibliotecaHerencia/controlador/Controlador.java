@@ -31,7 +31,7 @@ public class Controlador implements ActionListener {
                 if (comando.equals("crearLibro")) 
                 {
                         String nombreLibro = PanelEntrada.getTfNombreLibro();
-                        String nombreAutores = PanelEntrada.getTfNombreAutores();
+                        String[] nombreAutores = PanelEntrada.getTfNombreAutores();
                         Integer anioEdicion = Integer.parseInt(PanelEntrada.getTfAnioEdicion());
                         Boolean libroDeLujo = PanelEntrada.getRbLibroDeLujo();
                         biblioteca.agregarLibro(new Libro(nombreLibro, nombreAutores, anioEdicion, libroDeLujo));
@@ -45,7 +45,7 @@ public class Controlador implements ActionListener {
                 else if (comando.equals("crearLibroColeccion")) 
                 {
                         String nombreLibro = DialogoLibroColeccion.getTfNombreLibro();
-                        String nombreAutores = DialogoLibroColeccion.getTfNombreAutores();
+                        String[] nombreAutores = DialogoLibroColeccion.getTfNombreAutores();
                         Integer anioEdicion = Integer.parseInt(DialogoLibroColeccion.getTfAnioEdicion());
                         Boolean libroDeLujo = DialogoLibroColeccion.getRbLibroDeLujo();
                         String nombreColeccion = DialogoLibroColeccion.getTfNombreColeccion();

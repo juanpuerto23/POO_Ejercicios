@@ -106,8 +106,8 @@ public class DialogoLibroColeccion extends JDialog {
                 return tfNombreLibro.getText();
         }
 
-        public static String getTfNombreAutores() {
-                return tfNombreAutores.getText();
+        public static JTextField getTfNombreAutores() {
+                return tfNombreAutores;
         }
 
         public static String getTfAnioEdicion() {
